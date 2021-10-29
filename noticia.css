@@ -188,14 +188,20 @@ cursor: pointer;
 
 .text-center{
   text-align: left !important;
+  margin-top: 20px;
+      margin-bottom: 10px;
 }
 
 .text-center img{
   width: 500px;
   height: 200px;
+  border: 0px;
 
 }
-#bamos p{
+.rounded {
+  border-radius: 0.0em !important;
+}
+#bamos b{
 text-align:justify;
 padding-top: 10px;
 font-family: 'Times New Roman', Times, serif;
@@ -299,6 +305,7 @@ margin-top: 10px;
     padding-top: 34px;
     margin-left: 2px;
   }
+  
   
 
     @media only screen and (min-width: 1025px) {
